@@ -1,6 +1,7 @@
 # QR-Genius
 
-![image](https://github.com/kingshah13/QR-Genius/assets/67662365/36e0f626-13ca-4f1e-b817-4945298508cc)
+![image](https://github.com/kingshah13/QR-Genius/assets/67662365/c3e5f142-cad2-4b53-88b0-160b4f47f199)
+
 
 Create Batch Create QR Code from an Excel file and save them as either PNG or PDF
 
