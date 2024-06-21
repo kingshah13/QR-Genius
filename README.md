@@ -3,9 +3,9 @@
 ![image](https://github.com/kingshah13/QR-Genius/assets/67662365/c3e5f142-cad2-4b53-88b0-160b4f47f199)
 
 
-Create Batch Create QR Code from an Excel file and save them as either PNG or PDF
+Batch Create QR Code from an Excel file and save them as either PNG or PDF
 
-This Python script provides a simple GUI application for batch-generating QR codes from an Excel file. It utilizes the `pandas` library for handling Excel files and the `qrcode` library for generating QR codes.
+This Python script provides a simple GUI application for batch-generating QR codes from an Excel file. It utilizes the `pandas` library to handle Excel files and the `qrcode` library to generate QR codes.
 
 # Installation
 
@@ -40,7 +40,7 @@ The script will launch a graphical user interface.
   Click the **Browse** button to choose an Excel file containing the data for QR code generation.
 
 ### Select Columns for QR Code
-  Enter the names of the columns from the Excel file that you want to include in the QR code. Separate multiple columns with spaces.
+  Enter the names of the columns from the Excel file that you want to include in the QR code—separate multiple columns with spaces.
 
 ### Select Filename Column
   Enter the name of the column containing filenames for the QR codes.
