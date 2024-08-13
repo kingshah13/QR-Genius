@@ -1,40 +1,40 @@
 # QR-Genius
 
-![image](https://github.com/kingshah13/QR-Genius/assets/67662365/c3e5f142-cad2-4b53-88b0-160b4f47f199)
+![image](https://github.com/user-attachments/assets/71ddf670-7700-4cf3-8a0e-ae6593f66735)
 
 
-Batch Create QR Code from an Excel file and save them as either PNG or PDF
-
-This Python script provides a simple GUI application for batch-generating QR codes from an Excel file. It utilizes the `pandas` library to handle Excel files and the `qrcode` library to generate QR codes.
+Batch Create QR Code from an Excel file and save them as either PNG or in multiple formats.
 
 # Installation
 
-## 1.) Clone this repository to your local machine.
+## 1.) Clone the repository.
 Copy and paste the following command into the command prompt.
-
 ```bash
 git clone https://github.com/kingshah13/QR-Genius.git
 ```
-wait for the installation to finish then
-copy and paste this
 
-```bash
-cd QR-Genius
-```
+**or**
+
+
+## Download the latest release.
+
+Download: https://github.com/kingshah13/QR-Genius.git](https://github.com/kingshah13/QR-Genius/releases/tag/QRGenius)
+
+
 ## 2.) Install the dependencies.
   Copy and paste the following command into the command prompt.
 ```bash
-pip install pandas openpyxl qrcode[pil] tk
+pip install pandas pil qrcode[pil] tk
 ```
 
 ## 3.) Run the script.
 ```bash
-pyhton GQRcode.py
+python GQRcode.py
 ```
 
 The script will launch a graphical user interface.
 
-## How to Use
+## Batch Generate QR-Code
 
 ### Select Excel File
   Click the **Browse** button to choose an Excel file containing the data for QR code generation.
@@ -46,10 +46,38 @@ The script will launch a graphical user interface.
   Enter the name of the column containing filenames for the QR codes.
   
 ### Select Output Format
-  Choose between **PNG** and **PDF** as the desired output format.
+  You can choose between one file format or multiple file formats. Simply Click on as many file formats as you need and it will be selected.
 
 ### Select Output Directory
   Click the **Browse** button to choose the directory where the generated QR codes will be saved.
 
+### Click Transparent Background
+  Click the **Transparent Background** checkbox to save the QR code without a coloured background if you want to.
+
+### Select Resolution (px) Column
+  Enter the value in pixel you to adjust the resolution of the generated QR-Code.
+
 ### Generate QR Codes
-  Click the **Generate QR Codes** button to initiate the QR code generation process.
+  Click the **Generate QR Codes (Batch)** button to initiate the QR code generation process.
+
+
+
+## Generate Single QR-Code
+
+### Select Output Format
+  You can choose between one file format or multiple file formats. Simply Click on as many file formats as you need and it will be selected.
+
+### Select Output Directory
+  Click the **Browse** button to choose the directory where the generated QR codes will be saved.
+
+### Click Transparent Background
+  Click the **Transparent Background** checkbox to save the QR code without a coloured background if you want to.
+
+### Select Resolution (px) Column
+  Enter the value in pixel you to adjust the resolution of the generated QR-Code.
+
+### Enter Data for Single QR Code
+  Enter URL, Words, or anything that you want to convert as a QR-Code.
+  
+### Enter Filename
+  Enter the name you want the file to be saved as. Do not enter the file extension at the end of the name.
