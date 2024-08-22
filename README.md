@@ -29,7 +29,7 @@ pip install pandas pil qrcode[pil] tk
 
 ## 3.) Run the script.
 ```bash
-python GQRGenius.py
+python QRGenius.py
 ```
 
 The script will launch a graphical user interface.
