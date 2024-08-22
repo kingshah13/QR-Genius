@@ -29,7 +29,7 @@ pip install pandas pil qrcode[pil] tk
 
 ## 3.) Run the script.
 ```bash
-python GQRcode.py
+python GQRGenius.py
 ```
 
 The script will launch a graphical user interface.
@@ -77,7 +77,7 @@ The script will launch a graphical user interface.
   Enter the value in pixel you to adjust the resolution of the generated QR-Code.
 
 ### Enter Data for Single QR Code
-  Enter URL, Words, or anything that you want to convert as a QR-Code.
+  Enter URL, Words, or anything you want to convert as a QR code.
   
 ### Enter Filename
   Enter the name you want the file to be saved as. Do not enter the file extension at the end of the name.
