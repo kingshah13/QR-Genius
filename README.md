@@ -3,11 +3,17 @@
 ![image](https://github.com/user-attachments/assets/71ddf670-7700-4cf3-8a0e-ae6593f66735)
 
 
-Batch Create QR Code from an Excel file and save them as either PNG or in multiple formats.
+Batch Create QR Code from an Excel file and save it as PNG or in multiple formats.
 
 # Installation
 
-## 1.) Clone the repository.
+## 1.) Install the dependencies.
+  Copy and paste the following command into a command prompt.
+```bash
+pip install pandas pil qrcode[pil] tk
+```
+
+## 2.) Clone the repository.
 Copy and paste the following command into the command prompt.
 ```bash
 git clone https://github.com/kingshah13/QR-Genius.git
@@ -18,14 +24,11 @@ git clone https://github.com/kingshah13/QR-Genius.git
 
 ## Download the latest release.
 
-Download: https://github.com/kingshah13/QR-Genius.git](https://github.com/kingshah13/QR-Genius/releases/tag/QRGenius)
-
-
-## 2.) Install the dependencies.
-  Copy and paste the following command into the command prompt.
+Download URL 
 ```bash
-pip install pandas pil qrcode[pil] tk
+https://github.com/kingshah13/QR-Genius.git](https://github.com/kingshah13/QR-Genius/releases/tag/QRGenius)
 ```
+
 
 ## 3.) Run the script.
 ```bash
@@ -77,7 +80,7 @@ The script will launch a graphical user interface.
   Enter the value in pixel you to adjust the resolution of the generated QR-Code.
 
 ### Enter Data for Single QR Code
-  Enter URL, Words, or anything you want to convert as a QR code.
+  Enter the URL, Words, or anything you want to convert as a QR code.
   
 ### Enter Filename
   Enter the name you want the file to be saved as. Do not enter the file extension at the end of the name.
